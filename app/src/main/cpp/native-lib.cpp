@@ -9,14 +9,6 @@
 using calculator_t = Calculator<BigInt<unsigned int, 2048>>;
 
 extern "C" JNIEXPORT jstring JNICALL
-Java_com_example_native17_MainActivity_stringFromJNI(
-        JNIEnv* env,
-        jobject /* this */) {
-    std::string hello = "Hello from C++";
-    return env->NewStringUTF(hello.c_str());
-}
-
-extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_native17_MainActivity_calculate(JNIEnv* env, jobject, jstring input){
 
     // convert Java string to C++ string
