@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Native17</string>
+    <string name="input_text_box">Input expression\nexample:</string>
+    <string name="input_expression">Input expression:</string>
+    <string name="input_example_hint">Example:\n0x1+0x2*(0x3+0xdeadbeaf228</string>
+    <string name="result_prompt">Result:</string>
+    <string name="calculate_button_text">=</string>
+</resources>
