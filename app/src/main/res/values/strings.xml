@@ -5,4 +5,6 @@
     <string name="input_example_hint">Example:\n0x1+0x2*(0x3+0xdeadbeaf228</string>
     <string name="result_prompt">Result:</string>
     <string name="calculate_button_text">=</string>
+    <string name="action_help">Help</string>
+    <string name="action_help_operation_list">List of accessible operations:\n\t1) + \n\t2) - \n\t3) * \n\t4) / \n\t5) ^ </string>
 </resources>
